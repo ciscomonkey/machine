@@ -1,0 +1,14 @@
+- name: Homebrew
+  include_tasks: homebrew.yml
+
+- name: Installing Homebrew Applications
+  homebrew:
+    name: "{{item}}"
+    state: latest
+  with_items: "{{applications}}"
+
+- name: Installing Homebrew Cask Applications
+  homebrew_cask:
+    name: "{{item}}"
+    state: installed
+  with_items: "{{cask_applications}}"

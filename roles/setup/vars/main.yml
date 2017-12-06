@@ -1,0 +1,53 @@
+---
+# list of applications to install
+general:
+  local_home: "{{ lookup('env', 'HOME') }}"
+
+# Homebrew applications
+applications:
+  - coreutils
+  - curl
+  - findutils
+  - gawk
+  - git
+  - gnu-getopt
+  - gnu-indent
+  - gnu-sed
+  - gnu-tar
+  - gnutls
+  - gpg
+  - grc
+  - htop
+  - ncdu
+  - pstree
+  - tree
+  - unrar
+  - vim
+  - neovim
+  - watch
+  - wget
+  - zsh
+
+# Homebrew cask applications
+cask_applications:
+  - google-chrome
+  - iterm2
+  - 1password
+  - evernote
+  - sublime-text
+  - cisco-spark
+  # Check the rest of these
+  - appcleaner
+  - day-o
+  - slate
+  # https://github.com/sindresorhus/quick-look-plugins
+  - betterzipql
+  #- qlcolorcode
+  - qlimagesize
+  - qlmarkdown
+  - qlprettypatch
+  - qlstephen
+  - quicklook-csv
+  - quicklook-json
+  - suspicious-package
+  - webpquicklook
