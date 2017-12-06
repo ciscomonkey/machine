@@ -1,0 +1,15 @@
+#!/bin/bash
+
+# Make sure we don't already exist
+if [ ! -d "$HOME/dev/machine/" ]; then
+	# Create ~/dev if needed
+	if [ ! -d "$HOME/dev/" ]; then
+		mkdir $HOME/dev
+	fi
+
+	# Clone machine repo
+	git clone https://github.com/ciscomonkey/machine.git $HOME/dev/machine
+	$HOME/dev/machine/setup
+else
+	echo "~/dev/machine already exists.  nothing done."
+fi
