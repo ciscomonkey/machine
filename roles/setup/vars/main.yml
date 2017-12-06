@@ -38,6 +38,7 @@ cask_applications:
   - sublime-text
   - cisco-spark
   - skitch
+  - hazel
   # Check the rest of these
   - appcleaner
   - day-o
