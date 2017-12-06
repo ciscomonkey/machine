@@ -5,9 +5,14 @@ Machine setup, powered by Ansible.  Finally got this simplified and cleaned up.
 ## Usage:
 
 ```console
-$ wget https://github.com/ciscomonkey/machine/archive/master.zip
-$ unzip master.zip
-$ cd machine-master
+$ curl -sSk https://raw.githubusercontent.com/ciscomonkey/machine/master/web_install | bash
+```
+
+### Alternative:
+```console
+$ mkdir ~/dev
+$ git clone https://github.com/ciscomonkey/machine.git ~/dev/machine
+$ cd ~/dev/machine
 ```
 
 If you need to edit anything, this is the time to do it.  Once done, run:
@@ -19,14 +24,12 @@ $ ./setup
 ## Todo:
 
 * Applications
-  * Hazel
-  * virtualenv and tools
+  * virtualenv and dev tools
 * App Config files:
   * ST3
   * iTerm2
   * Git
-* Add dev tools as needed
-  * VirtualEnv
+  * Hazel
 * Certificates?
 * Licenses?
 * Create ~/bin
