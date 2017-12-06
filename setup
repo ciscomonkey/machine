@@ -25,4 +25,6 @@ if test ! "$(which ansible)"; then
 fi
 
 ansible-playbook playbook.yml
-# Add bootstrap either here or to dotfiles to do git configurations
+
+# Add bootstrap either here or to handle anything we can't do
+# with playbook or dotfiles
