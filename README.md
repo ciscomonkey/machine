@@ -19,3 +19,6 @@ Misc:
 
 * Certificates?
 * Licenses for apps?
+* Create ~/bin
+  * Populate apps - They're in github right? ;)
+* Create ~/dev
