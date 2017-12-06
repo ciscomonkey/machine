@@ -1,0 +1,17 @@
+- hosts: localhost
+  vars:
+    is_osx: ansible_os_family == 'Darwin'
+
+  tasks:
+    # Essentials
+    - include: tasks/homebrew.yml
+    - include: tasks/core.yml
+    - include: tasks/dotfiles.yml
+
+    # Specific stuff that can be commented out
+    # Editors, IDEs, terminals, etc
+    - include: tasks/sublime-text.yml
+
+    # Chat
+    - include: tasks/spark.yml
+    
