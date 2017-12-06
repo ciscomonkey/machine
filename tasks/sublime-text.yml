@@ -1,3 +1,0 @@
-- name: Install SublimeText
-  homebrew_cask: name=sublime-text
-  when: is_osx

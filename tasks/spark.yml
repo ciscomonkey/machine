@@ -1,3 +1,0 @@
-- name: Install Cisco Spark
-  homebrew_cask: name=cisco-spark
-  when: is_osx

@@ -1,8 +1,0 @@
-- name: Download dotfiles
-  git:
-    repo=https://github.com/ciscomonkey/dotfiles.git
-    dest=~/.dotfiles_git
-    version=master
-    update=yes
-  become: false
-
