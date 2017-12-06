@@ -42,7 +42,7 @@ cask_applications:
   - slate
   # https://github.com/sindresorhus/quick-look-plugins
   - betterzipql
-  #- qlcolorcode
+  - qlcolorcode
   - qlimagesize
   - qlmarkdown
   - qlprettypatch
