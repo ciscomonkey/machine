@@ -34,7 +34,7 @@ cask_applications:
   - google-chrome
   - iterm2
   - 1password
-  - 1password-cli
+  #- 1password-cli - useless unless you are cloud based
   - evernote
   - sublime-text
   - cisco-spark
