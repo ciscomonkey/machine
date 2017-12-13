@@ -34,4 +34,3 @@ $ ./setup
 * Licenses?
 * Create ~/bin
   * Populate apps - They're in github right? ;D
-* Create ~/dev
