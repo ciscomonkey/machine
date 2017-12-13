@@ -23,6 +23,10 @@ $ ./setup
 
 ## Todo:
 
+brew install autoenv
+pip3 install virtualenv virtualenvwrapper
+add bashrc stuff
+
 * Applications
   * virtualenv and dev tools
 * App Config files:
