@@ -37,7 +37,7 @@ cask_applications:
   #- 1password-cli - useless unless you are cloud based
   - evernote
   - sublime-text
-  - cisco-spark
+  - webex-teams
   - skitch
   - hazel
   # Check the rest of these
