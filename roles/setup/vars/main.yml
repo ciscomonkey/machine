@@ -5,10 +5,12 @@ general:
 
 # Homebrew applications
 applications:
+  - awscli@1
   - coreutils
   - curl
   - findutils
   - gawk
+  - gh
   - git
   - gnu-getopt
   - gnu-indent
@@ -22,36 +24,33 @@ applications:
   - pstree
   - stoken
   - tree
-  - unrar
+  - unar
   - vim
   - neovim
   - watch
   - wget
-  - zsh
+
 
 # Homebrew cask applications
 cask_applications:
   - google-chrome
   - iterm2
-  - 1password
-  #- 1password-cli - useless unless you are cloud based
+  # - 1password
+  - 1password-cli
   - evernote
-  - sublime-text
-  - webex-teams
   - skitch
   - hazel
-  # Check the rest of these
-  - appcleaner
-  - day-o
-  - slate
+ 
   # https://github.com/sindresorhus/quick-look-plugins
-  - betterzipql
+  
   - qlcolorcode
-  - qlimagesize
-  - qlmarkdown
-  - qlprettypatch
   - qlstephen
-  - quicklook-csv
+  - qlmarkdown
   - quicklook-json
+  - qlimagesize
   - suspicious-package
-  - webpquicklook
+  - apparency
+  - quicklookase
+  - qlvideo
+
+  - visual-studio-code
